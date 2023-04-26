@@ -4,7 +4,7 @@
 }
 
 .nav h1 {
-    color: rebeccapurple;
+    color: white;
     margin: 0;
     font-size: 40px;
 }
@@ -23,7 +23,7 @@
 
 .nav li a {
     text-decoration: none;
-    color: rebeccapurple;
+    color: white;
 }
 
 .nav .nav-search {
@@ -36,16 +36,16 @@
 
 .nav .nav-search input {
     flex: 1;
-    color: rebeccapurple;
-    border: 1px solid rebeccapurple;
+    color: white;
+    border: 1px solid white;
     height: 35px;
     border-right: 0px;
 }
 
 .nav .nav-search button {
 
-    color: rebeccapurple;
-    border: 1px solid rebeccapurple;
+    color: green;
+    border: 1px solid white;
     height: 38.5px;
     border-left: 0px;
 }

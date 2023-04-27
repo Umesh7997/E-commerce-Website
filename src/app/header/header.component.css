@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .nav h1 {

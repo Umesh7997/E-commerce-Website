@@ -32,3 +32,7 @@ body{
 .error-p{
     color:brown;
 }
+.p-message{
+    color:hsl(210, 33%, 98%);
+    text-align: center;
+}

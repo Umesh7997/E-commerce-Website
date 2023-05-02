@@ -28,5 +28,34 @@
       "password": "hello123",
       "id": 9
     }
+  ],
+  "products": [
+    {
+      "name": "iphone 14",
+      "price": "120000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://www.digitaltrends.com/wp-content/uploads/2022/09/iPhone-14-Pro-Back-Purple-Hand.jpg?resize=625%2C417&p=1",
+      "description": "abc",
+      "id": 1
+    },
+    {
+      "name": "poco",
+      "price": "25000",
+      "color": "blue",
+      "category": "mobile",
+      "description": "poco f1",
+      "image": "https://modmobile.in/media/catalog/product/cache/27f84b85f09670c0027cc5ac859c2eb4/6/1/61ygihwhqql._sl1500__cprb3sbfgy50pal1.jpg",
+      "id": 2
+    },
+    {
+      "name": "redmi ",
+      "price": "20000",
+      "color": "black",
+      "category": "mobile",
+      "description": "redmi ",
+      "image": "https://modmobile.in/media/catalog/product/cache/27f84b85f09670c0027cc5ac859c2eb4/6/1/61ygihwhqql._sl1500__cprb3sbfgy50pal1.jpg",
+      "id": 3
+    }
   ]
 }

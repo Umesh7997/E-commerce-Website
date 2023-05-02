@@ -34,7 +34,7 @@ export class SellerService {
   userLogin(data:login){
     console.warn(data)
 //login code
-    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,
+    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,   // Query params
     {observe:'response'}
     ).subscribe((result:any)=>{
       console.warn(result)

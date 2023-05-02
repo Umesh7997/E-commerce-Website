@@ -7,13 +7,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-menuType:string='default'
-sellerName:string=''                     //Username display
+
+  menuType:string='default'
+  sellerName:string=''                                                            //Username display
 
   constructor(private route:Router){}
 
   ngOnInit():void{
-this.route.events.subscribe((val:any)=>{
+this.route.events.subscribe((val:any)=>{                                       // URL based code
 if(val.url){
   console.warn(val.url)
   if(localStorage.getItem('seller') && val.url.includes('seller')){

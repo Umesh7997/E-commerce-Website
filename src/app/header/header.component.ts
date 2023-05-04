@@ -25,7 +25,7 @@ this.menuType="seller"
 
 if(localStorage.getItem('seller')){
   let sellerStore=localStorage.getItem('seller');
-  let sellerData=sellerStore&&JSON.parse(sellerStore)[0];
+  let sellerData=sellerStore&&JSON.parse(sellerStore)[0];   // convert object data to json format data
   this.sellerName=sellerData.name;
 }
   }else{
@@ -37,6 +37,7 @@ if(localStorage.getItem('seller')){
 }
                                                                // Logout functionality
 logout(){
+//The removeItem(key) method helps us remove the key and the value; it expects the key name to remove it from the browser’s local storage.
   localStorage.removeItem('seller');
   this.route.navigate(['/'])
 }

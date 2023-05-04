@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { product } from '../data-type';
 import { ProductService } from '../services/product.service';
-import {faTrash,faEdit} from'@fortawesome/free-solid-svg-icons';
+import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-seller-home',
   templateUrl: './seller-home.component.html',
@@ -11,11 +11,11 @@ export class SellerHomeComponent {
   constructor(private product: ProductService) { }
   productList: undefined | product[]
   productMessage: undefined | string
-deleteIcon=faTrash;
-editIcon=faEdit;
+  deleteIcon = faTrash;
+  editIcon = faEdit;
 
   ngOnInit(): void {
-   this.list();
+    this.list();
   }
   deleteProduct(id: number) {
     console.warn("test id", id);
@@ -26,11 +26,11 @@ editIcon=faEdit;
         this.list();
       }
     })
-    setTimeout(()=>{
-      this.productMessage=undefined,3000
+    setTimeout(() => {
+      this.productMessage = undefined, 3000
     })
   }
-  list(){
+  list() {
     this.product.productList().subscribe((result) => {
       console.warn(result)
       this.productList = result;

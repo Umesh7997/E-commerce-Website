@@ -26,7 +26,7 @@ const routes: Routes = [
     canActivate:[AuthGuard]
   },
   {
-    path:'seller-update-product',component:SellerUpdateProductComponent,
+    path:'seller-update-product/:id',component:SellerUpdateProductComponent,
     canActivate:[AuthGuard]
   }
 ];

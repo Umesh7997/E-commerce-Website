@@ -38,6 +38,15 @@
       "image": "https://www.digitaltrends.com/wp-content/uploads/2022/09/iPhone-14-Pro-Back-Purple-Hand.jpg?resize=625%2C417&p=1",
       "description": "abc",
       "id": 1
+    },
+    {
+      "name": "realme c2",
+      "price": "28000",
+      "color": "black",
+      "category": "mobile",
+      "description": "realme c2",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.91-cdn.com%2Fhub%2Fwp-content%2Fuploads%2F2019%2F05%2FRealme-C2-feat.png&tbnid=LR_rkA5RuPRxKM&vet=12ahUKEwjWm9OQt9v-AhUfntgFHX53DSAQMygQegUIARCLAg..i&imgrefurl=https%3A%2F%2Fwww.91mobiles.com%2Fhub%2Frealme-c2-review%2F&docid=W31L532bkdH90M&w=1200&h=630&q=realme%20c2&ved=2ahUKEwjWm9OQt9v-AhUfntgFHX53DSAQMygQegUIARCLAg",
+      "id": 2
     }
   ]
 }

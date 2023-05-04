@@ -18,13 +18,17 @@ export class SellerService {
       { observe: "response" }
     ).subscribe((result) => {
       this.isSellerLoggedIn.next(true);
+
 // local storage code
+//The setItem(key, value) method helps us add value to the local storage using a key and value.
+
       localStorage.setItem('seller', JSON.stringify(result.body))
       this.router.navigate(['seller-home'])
       
     });
   }
   reloadSeller(){
+//The getItem(key) method helps us read and expects the key name to return the data in local storage.
     if(localStorage.getItem('seller')){
       this.isSellerLoggedIn.next(true);
       this.router.navigate(['seller-auth'])
@@ -39,9 +43,15 @@ export class SellerService {
     ).subscribe((result:any)=>{
       console.warn(result)
       if(result && result.body && result.body.length){
+        // object data
         console.warn("user logged in")
-  //localstorage code
-        localStorage.setItem('seller', JSON.stringify(result.body))
+
+
+  //localstorage code--------stores user details in local browser
+
+  // convert to Json data 
+                  //  setItem (key   ,    value)
+        localStorage.setItem('seller', JSON.stringify(result.body))   //JSON.stringify(), which is used to convert the object data into the JSON format.
       this.router.navigate(['seller-home'])
       }
       else{
@@ -51,3 +61,6 @@ export class SellerService {
     })
   }
 }
+
+// JSON.stringify() , which is used to convert object data to JSON format data.
+// JSON.Parse() , which is used convert Json format data to Object data.

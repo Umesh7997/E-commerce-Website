@@ -8,6 +8,7 @@ import { SignUp } from '../data-type';
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent implements OnInit {
+  
 constructor(private seller:SellerService, private router:Router) {}
 
 showLogin=false;

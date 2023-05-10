@@ -7,7 +7,7 @@ import { ProductService } from '../services/product.service';
   templateUrl: './seller-add-product.component.html',
   styleUrls: ['./seller-add-product.component.css']
 })
-export class SellerAddProductComponent {
+export class SellerAddProductComponent implements OnInit{
   addProductMessage: string | undefined;
 
   constructor(private product: ProductService) { }
@@ -21,6 +21,6 @@ export class SellerAddProductComponent {
         this.addProductMessage = "product is successfully added"
       }
       setTimeout(() => this.addProductMessage = undefined, 3000)
-    })
+    })        
   }
 }

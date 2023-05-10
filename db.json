@@ -41,12 +41,21 @@
     },
     {
       "name": "realme c2",
-      "price": "28000",
+      "price": "30000",
       "color": "black",
       "category": "mobile",
       "description": "realme c2",
-      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.91-cdn.com%2Fhub%2Fwp-content%2Fuploads%2F2019%2F05%2FRealme-C2-feat.png&tbnid=LR_rkA5RuPRxKM&vet=12ahUKEwjWm9OQt9v-AhUfntgFHX53DSAQMygQegUIARCLAg..i&imgrefurl=https%3A%2F%2Fwww.91mobiles.com%2Fhub%2Frealme-c2-review%2F&docid=W31L532bkdH90M&w=1200&h=630&q=realme%20c2&ved=2ahUKEwjWm9OQt9v-AhUfntgFHX53DSAQMygQegUIARCLAg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3I90Ma5NZs5yy92nNZbkGGxm6ZIyJhAVgTJUct6Q7vqZ_Li_LfltRzkLDa4XwygnUPQ&usqp=CAU",
       "id": 2
+    },
+    {
+      "name": "poco x5",
+      "price": "25000",
+      "color": "navy blue",
+      "category": " mobile",
+      "description": "poco x5",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3I90Ma5NZs5yy92nNZbkGGxm6ZIyJhAVgTJUct6Q7vqZ_Li_LfltRzkLDa4XwygnUPQ&usqp=CAU",
+      "id": 3
     }
   ]
 }
